@@ -1,6 +1,6 @@
 # GpsApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.0.
+Simple project created using Angular 14 and Capacitor by Gabriel Canderoli.
 
 ## Development server
 
