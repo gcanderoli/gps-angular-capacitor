@@ -1,0 +1,16 @@
+.box {
+  margin-top: 40px;
+  padding: 15px;
+
+  &.ok {
+    background-color: greenyellow;
+  }
+
+  &-error {
+    background-color: red;
+  }
+}
+
+.msg {
+  font-size: 1.5rem;
+}

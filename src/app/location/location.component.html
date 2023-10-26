@@ -1,0 +1,11 @@
+<p *ngIf="loading">Loading position...</p>
+
+<div *ngIf="!loading">
+  <div class="box" [ngClass]="{ 'box-error': !dataLoaded, ok: dataLoaded }">
+    <h2>Your Location:</h2>
+    <p>Latitude: {{ latitude }}</p>
+    <p>Longitude: {{ longitude }}</p>
+  </div>
+
+  <p *ngIf="!dataLoaded" class="msg">Check permissions</p>
+</div>
